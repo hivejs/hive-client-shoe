@@ -1,0 +1,27 @@
+{
+  "name": "hive-shoe-client",
+  "version": "0.0.1",
+  "description": "Hive.js collaborating client",
+  "main": "index.js",
+  "dependencies": {
+    "shoe-bin": "1.x"
+  , "dataplex": "3.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hivejs/hive-shoe-client.git"
+  },
+  "keywords": [
+    "hivejs",
+    "hive.js"
+  ],
+  "author": "Marcel Klehr <mklehr@gmx.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hivejs/hive-shoe-client/issues"
+  },
+  "homepage": "https://github.com/hivejs/hive-shoe-client"
+}
