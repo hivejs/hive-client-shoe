@@ -1,4 +1,4 @@
-var reconnect = require('shoe-bin')
+var shoe = require('shoe-bin')
   , dataplex = require('dataplex')
 
 module.exports = function(baseURL, access_token, cb) {
@@ -7,7 +7,6 @@ module.exports = function(baseURL, access_token, cb) {
   stream.pipe(plex).pipe(stream)
 
   var authStream = plex.open('/authenticate')
-  authStream.write(access_token)
   authStream.once('data', function(chunk){
     try {
       cb(null, JSON.parse(chunk))
@@ -15,5 +14,6 @@ module.exports = function(baseURL, access_token, cb) {
       cb(new Error('Authentication failed'))
     }
   })
+  authStream.write(access_token)
   return plex
 }
