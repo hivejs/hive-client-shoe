@@ -1,5 +1,5 @@
 {
-  "name": "hive-shoe-client",
+  "name": "hive-client-shoe",
   "version": "0.0.1",
   "description": "Hive.js collaborating client",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hivejs/hive-shoe-client.git"
+    "url": "https://github.com/hivejs/hive-client-shoe.git"
   },
   "keywords": [
     "hivejs",
@@ -21,7 +21,7 @@
   "author": "Marcel Klehr <mklehr@gmx.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hivejs/hive-shoe-client/issues"
+    "url": "https://github.com/hivejs/hive-client-shoe/issues"
   },
-  "homepage": "https://github.com/hivejs/hive-shoe-client"
+  "homepage": "https://github.com/hivejs/hive-client-shoe"
 }
