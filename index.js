@@ -1,4 +1,4 @@
-var shoe = require('shoe-bin')
+var shoe = require('shoe2')
   , dataplex = require('dataplex')
   , buildReconnect = require('reconnect-core')
 
