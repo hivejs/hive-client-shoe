@@ -1,6 +1,6 @@
 {
   "name": "hive-client-shoe",
-  "version": "0.4.0",
+  "version": "0.6.0",
   "description": "Hive.js collaborating client",
   "main": "index.js",
   "dependencies": {
