@@ -37,6 +37,7 @@ module.exports = function(baseURL, access_token) {
       console.log('reconnect FAIL')
     })
     .on('error', function (err) {
+      plex.emit('disconnect')
       reject(err)
       setTimeout(() => {throw err}, 0)
     })
